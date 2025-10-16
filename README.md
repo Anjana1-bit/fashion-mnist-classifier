@@ -34,12 +34,12 @@ Optimization: Adam optimizer with Sparse Categorical Crossentropy loss.
 
 Repository Structure
 fashion_mnist_classifier.ipynb / fashion_mnist_classifier.py   →  Complete source code
-fashion_mnist_report.md                                         →  Detailed report (max 2 pages)
+fashion_mnist_report.md                                         →  Detailed report 
 requirements.txt                                                 →  List of all dependencies
 
 How to Run the Project
 1. Clone the Repository
-git clone [YOUR_REPOSITORY_LINK]
+git clone [https://github.com/Anjana1-bit/fashion-mnist-classifier.git]
 cd fashion-mnist-classifier
 
 2. Install Dependencies
@@ -50,11 +50,7 @@ pip install -r requirements.txt
 
 3. Execute the Code
 
-Open the .ipynb file in a Jupyter environment (Colab/Notebook) and run all cells sequentially,
-or run the .py script:
-
-python fashion_mnist_classifier.py
-
+Open the .ipynb file in a Jupyter environment (Colab/Notebook) and run all cells sequentially
 
 The script will automatically download the dataset, train the CNN, output the final accuracy,
 and display the confusion matrix and training history plots.
